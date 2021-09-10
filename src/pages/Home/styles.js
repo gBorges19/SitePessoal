@@ -53,6 +53,7 @@ export const ContainerTitle = styled.div`
   align-items: center;
 
 `
+
 export const SimpleColumn = styled.div`
 
   display: flex;
@@ -142,7 +143,7 @@ export const TitleTech = styled.h4`
 
   color: #92e3a9;
   font-size: 25px;
-  margin: 70px 5px 70px 0;
+  margin: 70px 10px 70px 15px;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
@@ -150,24 +151,23 @@ export const TitleTech = styled.h4`
 
 `
 
-export const Button = styled.button`
+export const Button = styled.a`
 
-    transform: skew(-15deg);
+    transform: skewx(-15deg);
     width: 225px;
     height: 45px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     font-size: 16px;
-    line-height: 180%;
     color: #F9F9F9;
     cursor: pointer;
-    outline: none;
     background-color: #628E75;
     border: 3px solid #628E75;
     transition: .6s;
-    margin-bottom: 25px;
-    margin-top: 55px;
+    margin-top: 60px;
     :hover{
         background: linear-gradient(130.02deg, #628E75 0.66%, #92e3a9 83.32%);
         border: 0;
@@ -185,6 +185,90 @@ export const ButtonContainer = styled.div`
   align-items: center;
   text-align: center;
   margin: 150px 75px 150px 75px;
+
+
+`
+
+export const ButtonShow = styled.button`
+
+  background-color: #86fd8e;
+  border-radius: 100px 100px 100px 100px;
+  border-color: #86fd8e;
+  width: 15px;
+  flex-direction: row;
+
+`
+
+export const ButtonHide = styled.button`
+
+  background-color: #ff6666;
+  border-radius: 100px 100px 100px 100px;
+  border-color: #ff6666;
+  width: 15px;
+  flex-direction: row;
+  margin-left: 10px;
+
+`
+
+export const ContainerFront = styled.div`
+
+    background: #92e3a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+`
+
+export const ContainerData = styled.div`
+
+
+    background: #92e3a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+`
+
+export const ContainerGames = styled.div`
+
+
+    background: #92e3a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+`
+
+export const ContainerNeutro = styled.div`
+
+
+    background: #92e3a9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+`
+
+export const FieldCertificado = styled.fieldset`
+
+ background: #92e3a9;
+ margin: 50px;
+
+
+`
+
+export const TitleCertificado = styled.h4`
+
+    color: white;
 
 
 `
