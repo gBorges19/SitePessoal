@@ -153,6 +153,7 @@ export const TitleTech = styled.h4`
 
 export const Button = styled.a`
 
+    z-index: 1;
     transform: skewx(-15deg);
     width: 225px;
     height: 45px;
@@ -269,6 +270,7 @@ export const FieldCertificado = styled.fieldset`
 export const TitleCertificado = styled.h4`
 
     color: white;
+    margin: 30px;
 
 
 `

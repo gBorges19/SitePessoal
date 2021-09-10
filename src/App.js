@@ -81,6 +81,7 @@ const ButtonChange = styled.button`
 
 export const Header = styled.header`
 
+  z-index: 2;
   background: #92e3a9;
   position: sticky;
   top: 0;

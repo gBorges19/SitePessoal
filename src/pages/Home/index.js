@@ -286,7 +286,13 @@ function Home(){
                         <ButtonShow onClick={() => showNeutro()}>+</ButtonShow>
                     </SimpleRow>
                     <ContainerNeutro id='neutro'>
-                        <p>oi</p>
+                        <RowContainer>
+                            <p>oi</p>
+                        </RowContainer>
+
+                        <RowContainer>
+                            <p>oi</p>
+                        </RowContainer>
                     </ContainerNeutro>
                 </FieldCertificado>
 
