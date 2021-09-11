@@ -99,8 +99,30 @@ export const Contato = styled.a`
 
     color: white;
     text-decoration: none;
+    position: relative;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+
+    ::before{
+      transform: scaleX(0);
+      transform-origin: bottom right;
+    }
+
+    :hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+}
+
+::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #5c8f6a;
+  z-index: -1;
+  transition: transform .3s ease;
+}
 
 
 `

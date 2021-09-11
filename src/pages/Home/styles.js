@@ -8,15 +8,19 @@ export const GlobalContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 
 
 `
 
 export const RowContainer = styled.div`
 
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 100%;
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 
 
@@ -24,12 +28,14 @@ export const RowContainer = styled.div`
 
 export const ContainerInsideRow = styled.div`
 
+  width: 100%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 50px;
+  padding: 30px;
 
 
 `
@@ -133,7 +139,7 @@ export const Tech3 = styled.img`
 
 export const Texts = styled.p`
 
-  font-family: 'Glory', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 
 
@@ -190,87 +196,106 @@ export const ButtonContainer = styled.div`
 
 `
 
-export const ButtonShow = styled.button`
 
-  background-color: #86fd8e;
-  border-radius: 100px 100px 100px 100px;
-  border-color: #86fd8e;
-  width: 15px;
-  flex-direction: row;
+export const Imagemteste = styled.img`
 
-`
+  :hover{
+    opacity: 95%;
+  }
 
-export const ButtonHide = styled.button`
-
-  background-color: #ff6666;
-  border-radius: 100px 100px 100px 100px;
-  border-color: #ff6666;
-  width: 15px;
-  flex-direction: row;
-  margin-left: 10px;
 
 `
 
-export const ContainerFront = styled.div`
+export const ContainerCertificado = styled.article`
 
-    background: #92e3a9;
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    margin-bottom: 1.56rem;
+    background-color: #628E75;
+    border-radius: 5px;
+
+
+`
+
+export const HeaderCertificado = styled.div`
+
+    width: 100%;
+    height: 1.37rem;
+    margin: auto auto 20px auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    
+
+`
+
+export const ContainerContent = styled.div`
+
+    display: none;
+    height: auto;
+    margin-top: 1.68rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    background: #628E75;
+
+`
+export const TitleC = styled.h2`
+
+    height: auto;
+    margin-top: 1.68rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.40rem;
+    color: black;
 
 
 `
 
-export const ContainerData = styled.div`
+export const TextContent = styled.p`
 
-
-    background: #92e3a9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-`
-
-export const ContainerGames = styled.div`
-
-
-    background: #92e3a9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: auto;
+    margin-top: 1.68rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 1.40rem;
+    color: #FFFFFF;
+    padding-top: .56rem;
+    padding-bottom: .97rem;
+    font-family: 'Montserrat', sans-serif;
+    
     
 
 
 `
 
-export const ContainerNeutro = styled.div`
+export const SvgMinimize = styled.svg`
 
+    width: 28px;
+    height: 28px;
+    top: 75px;
+    left: 7px;
 
-    background: #92e3a9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-`
-
-export const FieldCertificado = styled.fieldset`
-
- background: #92e3a9;
- margin: 50px;
 
 
 `
+export const ButtonMinimize = styled.button`
 
-export const TitleCertificado = styled.h4`
+  width: 30px;
+  height: 30px;
+  margin: 5px 30px 5px 30px;
+  border: none;
+  background: none;
 
-    color: white;
-    margin: 30px;
+  :hover{
+    cursor: pointer;
+  }
 
-
-`
+`;
