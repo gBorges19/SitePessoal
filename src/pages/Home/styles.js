@@ -9,7 +9,6 @@ export const GlobalContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1140px;
     margin: 0 auto;
 
 
@@ -20,7 +19,7 @@ export const RowContainer = styled.div`
   width: 100%;
   max-width: 1220px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
 
@@ -45,7 +44,7 @@ export const ImagemPessoal = styled.img`
   width: 10%;
   height: 10%;
   border-radius: 100px 100px 100px 100px;
-  border: 7px outset #92e3a9;
+  border: 7px outset #00df5e;
   margin: 50px;
 
 
@@ -83,7 +82,7 @@ export const SimpleRow = styled.div`
 
 export const TitleDeveloper = styled.h2`
 
-  color: #92e3a9;
+  color: #00df5e;
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -110,32 +109,6 @@ export const AboutMeSvg = styled.svg`
 
 `
 
-export const Tech = styled.img`
-
-  width: 5%;
-  height: 5%;
-  margin: 7px 70px 7px 70px;
-
-
-`
-
-export const Tech2 = styled.img`
-
-  width: 6.5%;
-  height: 6.5%;
-  margin: 7px 70px 7px 70px;
-
-
-`
-
-export const Tech3 = styled.img`
-
-  width: 4%;
-  height: 4%;
-  margin: 7px 70px 7px 70px;
-
-
-`
 
 export const Texts = styled.p`
 
@@ -183,6 +156,21 @@ export const Button = styled.a`
 
 `
 
+export const ContainerGitCv = styled.div`
+
+  width: 100%;
+  max-width: 350px;
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+
+
+`
+
 export const ButtonContainer = styled.div`
 
 
@@ -208,7 +196,8 @@ export const Imagemteste = styled.img`
 
 export const ContainerCertificado = styled.article`
 
-    width: 100%;
+    width: 70%;
+    max-width: 1200px;
     height: auto;
     padding-top: 1rem;
     margin-bottom: 1.56rem;
@@ -299,3 +288,15 @@ export const ButtonMinimize = styled.button`
   }
 
 `;
+
+export const ContainerStyle = styled.div`
+
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  height: 20px;
+  background: #628E75;
+
+
+`
